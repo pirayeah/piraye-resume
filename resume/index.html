@@ -10,11 +10,11 @@
     gtag('config', 'G-LN407H3TV2');
   </script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Product Manager experienced in enterprise platforms, workflow automation, and financial services.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Product manager and AI builder in Tehran: notification platforms, workflow automation, and products built with AI agents.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Piraye Pirhadi — Product Manager">
-  <meta property="og:description" content="Enterprise platforms, workflow automation, and product management in financial services.">
+  <meta property="og:title" content="Piraye Pirhadi — Product Manager &amp; AI builder">
+  <meta property="og:description" content="Product manager and AI builder in Tehran: notification platforms, workflow automation, and products built with AI agents.">
   <meta property="og:url" content="https://pirayeah.github.io/piraye-resume/resume/">
   <meta property="og:image" content="https://pirayeah.github.io/piraye-resume/resume/og-thumbnail-v2.jpg">
   <meta property="og:image:secure_url" content="https://pirayeah.github.io/piraye-resume/resume/og-thumbnail-v2.jpg">
@@ -23,142 +23,478 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Piraye Pirhadi — Product Manager">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Piraye Pirhadi — Product Manager">
-  <meta name="twitter:description" content="Enterprise platforms, workflow automation, and product management in financial services.">
+  <meta name="twitter:title" content="Piraye Pirhadi — Product Manager &amp; AI builder">
+  <meta name="twitter:description" content="Product manager and AI builder in Tehran: notification platforms, workflow automation, and products built with AI agents.">
   <meta name="twitter:image" content="https://pirayeah.github.io/piraye-resume/resume/og-thumbnail-v2.jpg">
-  <meta name="theme-color" content="#f4f1eb">
-  <title>Piraye Pirhadi — Product Manager</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#f4f6f8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1320" media="(prefers-color-scheme: dark)">
+  <title>Piraye Pirhadi — Product Manager &amp; AI builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Vazirmatn:wght@400;600&display=swap">
+<style>
+/* Layout: a message route. Hero (headline + portrait), the six places I've worked from,
+   then chapters hung on one vertical line in time order, the numbers drawn to scale,
+   the things I build after hours, and a plain close. */
+:root{
+  --paper:#f4f6f8;      /* cool, sea-light white */
+  --card:#ffffff;
+  --ink:#121826;        /* navy-black */
+  --muted:#556074;
+  --rule:#d6dce5;
+  --cobalt:#1c4fd8;     /* the shirt's blue: the one bold colour */
+  --cobalt-soft:#e3eafc;
+  --sand:#b9a27c;       /* shells on the beach, used only for the "before" bars */
+  --display:Georgia, "Times New Roman", serif;
+  --body:"Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"Inter", ui-sans-serif, system-ui, sans-serif; /* labels: Inter in tracked caps */
+  --fa:"Vazirmatn", "Tahoma", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0d1320;--card:#141c2d;--ink:#e9edf4;--muted:#9aa6bb;--rule:#26314a;
+  --cobalt:#7da2ff;--cobalt-soft:#1a2747;--sand:#a8916b;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0d1320;--card:#141c2d;--ink:#e9edf4;--muted:#9aa6bb;--rule:#26314a;
+  --cobalt:#7da2ff;--cobalt-soft:#1a2747;--sand:#a8916b;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%;height:auto}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.65 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto}
+html{scroll-behavior:smooth}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;letter-spacing:-.025em}
+p{margin:0}
+a{color:var(--cobalt)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--cobalt);outline-offset:3px;border-radius:4px}
+.eyebrow{font:700 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.fa{font-family:var(--fa);direction:rtl;unicode-bidi:isolate}
+section{padding-block:clamp(56px,9vw,104px)}
+section + section{border-top:1px solid var(--rule)}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(28px,5vw,64px);align-items:end;padding-block:clamp(40px,7vw,88px) clamp(48px,8vw,96px)}
+.hero{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center}
+.hero h1{font-size:clamp(2.9rem,7.6vw,6.2rem);line-height:.98;margin-top:22px;letter-spacing:-.045em}
+.hero h1 em{font-style:italic;color:var(--cobalt)}
+.now{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:6px 22px 4px;display:grid}
+.now-row{display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;padding:16px 0;border-bottom:1px solid var(--rule)}
+.now-row:last-child{border-bottom:0}
+.now-row .k{font:700 11px/1.7 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px;align-self:start}
+.now-row .k::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--cobalt);flex:none}
+.now-row b{display:block;font-weight:600;font-size:1rem}
+.now-row span{display:block;color:var(--muted);font-size:.92rem;line-height:1.5;margin-top:2px}
+.now-head{font:700 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--cobalt);padding:14px 0 4px}
+.photo-band{margin:0;padding-block:0 8px}
+.photo-band img{display:block;width:100%;aspect-ratio:16/8;object-fit:cover;object-position:60% 35%;border-radius:4px}
+.photo-band figcaption{margin-top:10px;font-size:12px;color:var(--muted);letter-spacing:.04em}
+.hero .lede{max-width:34em;margin-top:26px;font-size:1.13rem;color:var(--muted)}
+.hero .lede strong{color:var(--ink);font-weight:600}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font:600 15px/1 var(--body);text-decoration:none;border:1px solid var(--ink);color:var(--ink);background:transparent;cursor:pointer}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn:hover{border-color:var(--cobalt);color:var(--cobalt)}
+.btn.solid:hover{background:var(--cobalt);color:var(--paper)}
+.portrait{position:relative;margin:0}
+.portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 22%;border-radius:2px}
+.portrait figcaption{margin-top:10px;font:400 12px/1.5 var(--mono);color:var(--muted)}
+
+/* The six places */
+.places-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 48px;align-items:end}
+.places-head h2{font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.08;margin-top:14px}
+.places-head p{color:var(--muted);max-width:32em}
+.places{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:2px solid var(--ink)}
+.places li{padding:18px 16px 4px 0;position:relative}
+.places li::before{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--ink)}
+.places li:last-child::before{background:var(--cobalt);border-color:var(--cobalt)}
+.places .yr{font:500 12px/1.4 var(--mono);color:var(--muted);letter-spacing:.06em}
+.places h3{font-size:1.45rem;margin:6px 0 6px}
+.places .gave{font-size:.94rem;color:var(--muted);line-height:1.5}
+
+/* Chapters on the route */
+.route{margin-top:12px}
+.ch{display:grid;grid-template-columns:200px minmax(0,1fr);gap:0 44px;position:relative;padding-bottom:64px}
+.ch:last-child{padding-bottom:0}
+.ch .when{position:relative;padding-top:4px}
+.ch .when::after{content:"";position:absolute;top:0;bottom:-64px;right:-23px;width:2px;background:var(--rule)}
+.ch:last-child .when::after{bottom:0}
+.ch .when::before{content:"";position:absolute;top:8px;right:-30px;width:16px;height:16px;border-radius:50%;background:var(--paper);border:2px solid var(--cobalt);z-index:1}
+.ch .dates{font:500 13px/1.4 var(--mono);color:var(--cobalt);letter-spacing:.04em}
+.ch .role{margin-top:6px;font-size:.95rem;font-weight:600}
+.ch .org{font-size:.9rem;color:var(--muted)}
+.ch .fa{margin-top:8px;font-size:.95rem;color:var(--muted);display:block}
+.ch h3{font-size:clamp(1.7rem,3.2vw,2.35rem);line-height:1.12}
+.ch .body{display:grid;gap:16px;max-width:66ch}
+.ch .body p{color:var(--ink)}
+.ch .body p.quiet{color:var(--muted)}
+.ch ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.ch ul li{padding-left:22px;position:relative}
+.ch ul li::before{content:"";position:absolute;left:2px;top:.72em;width:10px;height:2px;background:var(--cobalt)}
+.kept{font-family:var(--display);font-size:1.25rem;line-height:1.35;padding:14px 0 0;border-top:1px solid var(--rule);margin-top:4px}
+.kept span{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+
+/* Numbers drawn to scale */
+.scale{margin-top:8px;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:22px clamp(16px,3vw,28px);display:grid;gap:24px}
+.scale h4{margin:0;font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.metric{display:grid;gap:8px}
+.metric .label{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;font-size:.95rem}
+.metric .label b{font-weight:600}
+.metric .label .v{font:500 14px/1.4 var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
+.bars{display:grid;gap:5px}
+.bar{height:12px;border-radius:2px;min-width:2px}
+.bar.before{background:var(--sand)}
+.bar.after{background:var(--cobalt)}
+.legend{display:flex;gap:18px;font:400 12px/1.4 var(--mono);color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:6px}
+.fact{border-top:2px solid var(--ink);padding-top:10px}
+.fact .n{font-family:var(--display);font-size:2.4rem;line-height:1}
+.fact p{font-size:.9rem;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* After hours */
+.after-head{max-width:760px}
+.after-head img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:30% 30%;border-radius:2px;display:block}
+.after-head h2{font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.08;margin-top:14px}
+.after-head p{margin-top:18px;color:var(--muted);max-width:34em}
+.builds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:48px}
+.build{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.build .kind{font:500 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--cobalt)}
+.build h3{font-size:1.7rem;line-height:1.1}
+.build h3 .fa{font-size:1.1rem;color:var(--muted);margin-inline-start:8px}
+.build p{font-size:.96rem;line-height:1.6}
+.build .mine{font-size:.9rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px;margin-top:auto}
+.build a{font-weight:600;text-decoration:none;font-size:.95rem}
+.build a:hover{text-decoration:underline}
+
+/* How I work */
+.how h2{font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.08;margin-top:14px;max-width:16em}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 56px;margin-top:44px}
+.rule h3{font-size:1.5rem}
+.rule p{margin-top:8px;color:var(--muted);max-width:40ch}
+
+/* Tools + education */
+.base{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:48px}
+.base h2{font-size:1.9rem;margin-bottom:20px}
+.tools{display:grid;gap:14px}
+.tools div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;border-top:1px solid var(--rule);padding-top:12px}
+.tools dt{font:500 12px/1.6 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tools dd{margin:0;font-size:.97rem}
+.edu{display:grid;gap:18px}
+.edu div{border-top:1px solid var(--rule);padding-top:12px}
+.edu .y{font:500 13px/1.4 var(--mono);color:var(--cobalt)}
+.edu b{display:block;font-weight:600;margin-top:4px}
+.edu span{color:var(--muted);font-size:.95rem}
+
+/* Close */
+.close{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:end}
+.close h2{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.04}
+.close p{color:var(--muted);margin-top:16px;max-width:34em}
+.mail{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:24px}
+.mail code{font:500 15px/1 var(--mono);padding:12px 14px;border:1px solid var(--rule);border-radius:6px;background:var(--card);user-select:all}
+.links{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+footer{padding-block:28px 40px;border-top:1px solid var(--rule);font:400 12px/1.5 var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+
+@media (max-width:900px){
+  .places{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:28px;border-top:0}
+  .places li{border-top:2px solid var(--ink)}
+  .builds{grid-template-columns:minmax(0,1fr)}
+  .facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:720px){
+  body{font-size:16px}
+  .hero,.places-head,.after-head,.base,.close,.rules{grid-template-columns:minmax(0,1fr)}
+  .portrait{max-width:340px}
+  .places{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ch{grid-template-columns:minmax(0,1fr);padding-left:28px;padding-bottom:52px}
+  .ch .when{margin-bottom:14px}
+  .ch .when::after{right:auto;left:-21px;top:0;bottom:-52px}
+  .ch:last-child .when::after{bottom:-100%}
+  .ch .when::before{right:auto;left:-28px}
+  .facts{grid-template-columns:minmax(0,1fr)}
+  .tools div{grid-template-columns:minmax(0,1fr);gap:2px}
+  .after-head img{aspect-ratio:4/3}
+}
+@media (prefers-reduced-motion:no-preference){
+  @supports (animation-timeline: view()){
+    .reveal,.ch,.build,.rule,.fact{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
+    @keyframes rise{from{opacity:.25;transform:translateY(36px)}to{opacity:1;transform:none}}
+    .photo-band img{animation:drift linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+    @keyframes drift{from{object-position:60% 20%}to{object-position:60% 55%}}
+  }
+  .bar.after{transform-origin:left;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes grow{from{transform:scaleX(.02)}to{transform:scaleX(1)}}
+}
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Piraye Pirhadi — Home">PP</a>
-    <nav aria-label="Primary navigation">
-      <a href="#experience">Experience</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<div class="wrap">
 
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="eyebrow"><span></span> Product Manager · Tehran, Iran</div>
-      <h1 id="hero-title">I turn complex business needs into <em>clear product direction.</em></h1>
-      <p class="intro">Product Manager with experience delivering internal platforms and workflow automation products in financial services. Skilled in product discovery, requirements prioritization, roadmap development, stakeholder alignment, and data-informed decision-making.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="#experience">Explore my experience <span aria-hidden="true">↓</span></a>
-        <a class="text-link" href="https://linkedin.com/in/piraye-pirhadi" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="signal-grid" aria-label="Ways of working">
-        <div><strong>Systems Thinking</strong><span>Connecting business needs, users, and operational constraints.</span></div>
-        <div><strong>Stakeholder Empathy</strong><span>Understanding different perspectives before shaping direction.</span></div>
-        <div><strong>Pragmatic Decisions</strong><span>Balancing value, complexity, evidence, and delivery effort.</span></div>
-        <div><strong>Collaborative Ownership</strong><span>Moving work forward through clarity, trust, and influence.</span></div>
-      </div>
-    </section>
+<header class="hero">
+  <div>
+    <p class="eyebrow">Piraye Pirhadi · Product Manager &amp; AI builder · Tehran</p>
+    <h1>I keep learning the <em>next layer</em> down.</h1>
+    <p class="lede">Support taught me the customer. Research taught me the business. Product taught me the platform. Now I'm learning the last layer by <strong>building real products with AI agents</strong>, from the first spec to a live app.</p>
+    <div class="cta">
+      <a class="btn solid" href="#route">Read the route ↓</a>
+      <a class="btn" href="https://linkedin.com/in/piraye-pirhadi" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+  <aside class="now" aria-label="What I am doing now">
+    <p class="now-head">Now · November 2026</p>
+    <div class="now-row"><p class="k">At work</p><p><b>Product Manager, Agah Group</b><span>I own the notification platform that sends 600 messages a second, and the team's n8n automation product.</span></p></div>
+    <div class="now-row"><p class="k">Building</p><p><b>Libra, a personal finance app</b><span>In Persian, live at libranote.ir. I write the specs; AI agents write the code.</span></p></div>
+    <div class="now-row"><p class="k">Learning</p><p><b>Spec-driven building with AI</b><span>Agentic coding, privacy by design, and shipping alone without cutting corners.</span></p></div>
+  </aside>
+</header>
 
-    <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="section-heading">
-        <p>01 / Experience</p>
-        <h2 id="experience-title">From customer operations to product ownership.</h2>
-      </div>
+<figure class="photo-band reveal">
+  <img src="piraye-coast-wide.jpg" width="1672" height="941" alt="Piraye on a clifftop above the sea, arms raised, in a T-shirt that says FOCUS">
+  <figcaption>Off the clock. The T-shirt says it.</figcaption>
+</figure>
 
-      <div class="timeline">
-        <article class="role current">
-          <div class="role-meta">
-            <span class="status">Current</span>
-            <time>Mar 2024 — Present</time>
+<section aria-labelledby="places-title">
+  <div class="places-head reveal">
+    <div>
+      <p class="eyebrow">The landscape</p>
+      <h2 id="places-title">Six places I've worked from, and what each one left me.</h2>
+    </div>
+    <p>Most product managers arrive from one side: engineering, business or design. I've stood on most sides of the same problem, in this order. It's why I can sit with a customer, leadership, a vendor and a developer in the same week and translate between them.</p>
+  </div>
+  <ol class="places reveal">
+    <li><p class="yr">2015</p><h3>Engineering</h3><p class="gave">How systems are put together, and where they break.</p></li>
+    <li><p class="yr">2019</p><h3>Business</h3><p class="gave">How organisations decide and what they pay for.</p></li>
+    <li><p class="yr">2020</p><h3>Service</h3><p class="gave">What a problem sounds like in the customer's own words.</p></li>
+    <li><p class="yr">2021</p><h3>Research</h3><p class="gave">How to turn a messy question into a decision.</p></li>
+    <li><p class="yr">2023</p><h3>Product</h3><p class="gave">How to choose what gets built, and own the result.</p></li>
+    <li><p class="yr">2026</p><h3>Building</h3><p class="gave">How it feels to ship it myself, end to end.</p></li>
+  </ol>
+</section>
+
+<section id="route" aria-labelledby="route-title">
+  <p class="eyebrow">The route</p>
+  <h2 id="route-title" style="font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.08;margin:14px 0 56px;max-width:15em">How I got from the phone line to the platform.</h2>
+
+  <div class="route">
+    <article class="ch">
+      <div class="when">
+        <p class="dates">2015 · 2019</p>
+        <p class="role">BSc IT Engineering · MBA</p>
+        <p class="org">Payame Noor · IMPS</p>
+        <span class="fa">دو مدرک، یک پرسش</span>
+      </div>
+      <div class="body">
+        <h3>Two degrees, one question.</h3>
+        <p>Information Technology Engineering taught me how software, data and networks fit together. An MBA in International Business Management at the Institute for Management and Planning Studies taught me how companies weigh cost, risk and value before they commit.</p>
+        <p class="quiet">Neither one alone explained why good systems fail inside real organisations. I wanted work that needed both.</p>
+        <p class="kept"><span>What I kept</span>I can read the technical side and the business side of the same decision.</p>
+      </div>
+    </article>
+
+    <article class="ch">
+      <div class="when">
+        <p class="dates">May 2020 – Sep 2022</p>
+        <p class="role">Customer Service &amp; Call Center Operations</p>
+        <p class="org">Agah Group</p>
+        <span class="fa">پشت خط</span>
+      </div>
+      <div class="body">
+        <h3>On the line.</h3>
+        <p>I started where every problem eventually arrives: customer support. First written replies, then email, then the phone. When the company set up a dedicated call-center operations team, I joined it.</p>
+        <ul>
+          <li>Wrote research, documentation and training content for new agents.</li>
+          <li>Built knowledge assessments and structured recruitment questions, so hiring and training ran on the same standard.</li>
+        </ul>
+        <p class="kept"><span>What I kept</span>Customers describe symptoms. Finding the cause is my job, and I don't skip the first conversation.</p>
+      </div>
+    </article>
+
+    <article class="ch">
+      <div class="when">
+        <p class="dates">Sep 2021 – now</p>
+        <p class="role">Business Researcher</p>
+        <p class="org">Agah Group · main role until Sep 2023</p>
+        <span class="fa">پرسیدنِ چرا</span>
+      </div>
+      <div class="body">
+        <h3>Asking why.</h3>
+        <p>Leadership wanted answers about transformation, operating models and customer experience. I ran the research: global benchmarks, internal evidence, and recommendations they could act on.</p>
+        <ul>
+          <li>Co-designed Customer Service structures, career paths, competency frameworks and role definitions with senior leadership.</li>
+          <li>My research fed the organisational redesign and several cross-functional programmes.</li>
+        </ul>
+        <p class="kept"><span>What I kept</span>A good recommendation names its evidence and the decision it asks for.</p>
+      </div>
+    </article>
+
+    <article class="ch">
+      <div class="when">
+        <p class="dates">Oct 2023 – Mar 2024</p>
+        <p class="role">Associate Product Manager</p>
+        <p class="org">Agah Group</p>
+        <span class="fa">نوشتنِ مسئله</span>
+      </div>
+      <div class="body">
+        <h3>Writing it down.</h3>
+        <p>My first product job was the legacy messaging service: dozens of products depended on it, and it was reaching its limits. I interviewed the business owner, stakeholders, the people using the old platform and the support teams who cleaned up after it.</p>
+        <ul>
+          <li>Turned the findings into PRDs, an MVP scope and input for the roadmap.</li>
+          <li>Helped shape the product vision and prioritise the UX and UI fixes that mattered first.</li>
+        </ul>
+        <p class="kept"><span>What I kept</span>If the requirement isn't written clearly enough to disagree with, it isn't a requirement yet.</p>
+      </div>
+    </article>
+
+    <article class="ch">
+      <div class="when">
+        <p class="dates">Mar 2024 – now</p>
+        <p class="role">Product Manager</p>
+        <p class="org">Enterprise Platforms &amp; Automation · Agah Group</p>
+        <span class="fa">صاحبِ پلتفرم</span>
+      </div>
+      <div class="body">
+        <h3>Owning the platform.</h3>
+        <p>I own the roadmap and requirements for two products: the enterprise notification platform that sends the company's messages, and an n8n-based workflow-automation product. I work with two dedicated engineering teams in a SAFe setup.</p>
+        <ul>
+          <li>Moved all 34 products off the legacy service onto the new platform in phases over two years, with rollback ready at every step and no service interruption.</li>
+          <li>Weighed competing business requests against user needs, complexity and value, and got stakeholders to agree on a simpler governance model.</li>
+          <li>Coordinated Data, BI, Engineering and outside vendors. When a vendor's integration slipped, I secured a one-month contract extension so we didn't absorb the delay.</li>
+        </ul>
+
+        <div class="scale" aria-label="Results, drawn to scale">
+          <h4>The results, drawn to scale</h4>
+          <div class="metric">
+            <div class="label"><b>Throughput</b><span class="v">14 → 600 messages per second</span></div>
+            <div class="bars">
+              <div class="bar before" style="width:2.33%" title="14 TPS"></div>
+              <div class="bar after" style="width:100%" title="600 TPS"></div>
+            </div>
           </div>
-          <div class="role-content">
-            <p class="company">Agah Group</p>
-            <h3>Product Manager</h3>
-            <p class="role-focus">Enterprise Platforms &amp; Automation</p>
-            <ul>
-              <li>Manage the roadmap and requirements for an enterprise notification platform and an n8n-based workflow automation product, working with two dedicated engineering teams in a SAFe environment.</li>
-              <li>Supported the phased migration of all 34 legacy-service products to a centralized platform over two years, with rollback readiness and no service interruption.</li>
-              <li>Prioritized improvements that supported scaling throughput from 14 to 600 TPS and reduced high-volume delivery time from four hours to approximately 20 minutes.</li>
-              <li>Evaluated competing business requirements against user needs, implementation complexity, and expected value, helping stakeholders align on a simpler governance model.</li>
-              <li>Facilitated 33 automated journeys across activation, onboarding, retention, and cross-selling. Selected workflows reduced campaign setup from about one week to minutes and supported a short-term 70%+ uplift in first-trade activation.</li>
-              <li>Coordinated requirements and dependencies across stakeholders, Data, BI, Engineering, and external vendors; secured a one-month contract extension following vendor-side integration delays.</li>
-            </ul>
+          <div class="metric">
+            <div class="label"><b>A high-volume send</b><span class="v">≈ 4 hours → ≈ 20 minutes</span></div>
+            <div class="bars">
+              <div class="bar before" style="width:100%" title="240 minutes"></div>
+              <div class="bar after" style="width:8.33%" title="20 minutes"></div>
+            </div>
           </div>
-        </article>
-
-        <article class="role">
-          <div class="role-meta"><time>Oct 2023 — Mar 2024</time></div>
-          <div class="role-content">
-            <p class="company">Agah Group</p>
-            <h3>Associate Product Manager</h3>
-            <ul>
-              <li>Interviewed the Business Owner, stakeholders, legacy-platform users, and operational support teams to understand governance constraints, workflows, user needs, and platform limitations.</li>
-              <li>Translated research into product requirements, PRDs, MVP scope, roadmap input, and decision-support data.</li>
-              <li>Collaborated on product vision and roadmap development and supported prioritization of essential UX and UI improvements.</li>
-            </ul>
+          <div class="metric">
+            <div class="label"><b>Setting up a campaign</b><span class="v">≈ 1 week → minutes</span></div>
+            <div class="bars">
+              <div class="bar before" style="width:100%" title="about one week"></div>
+              <div class="bar after" style="width:.1%" title="a few minutes"></div>
+            </div>
           </div>
-        </article>
-
-        <article class="role">
-          <div class="role-meta"><time>Sep 2021 — Present</time></div>
-          <div class="role-content">
-            <p class="company">Agah Group · Concurrent role</p>
-            <h3>Business Researcher</h3>
-            <p class="role-focus">Primary focus through Sep 2023; reduced scope after moving into Product.</p>
-            <ul>
-              <li>Conducted strategic research and global benchmarking to support executive decisions on transformation, operating models, customer experience, and organizational design.</li>
-              <li>Co-developed Customer Service structures, career paths, competency frameworks, job descriptions, and role definitions with senior leadership.</li>
-              <li>Produced research and recommendations used in organizational redesign and complex cross-functional initiatives.</li>
-            </ul>
+          <div class="legend"><span><i style="background:var(--sand)"></i>before</span><span><i style="background:var(--cobalt)"></i>after</span></div>
+          <div class="facts">
+            <div class="fact"><p class="n">34 / 34</p><p>products migrated, no outage</p></div>
+            <div class="fact"><p class="n">33</p><p>automated journeys: activation, onboarding, retention, cross-sell</p></div>
+            <div class="fact"><p class="n">70%+</p><p>short-term lift in first-trade activation from selected journeys</p></div>
           </div>
-        </article>
+        </div>
 
-        <article class="role">
-          <div class="role-meta"><time>May 2020 — Sep 2022</time></div>
-          <div class="role-content">
-            <p class="company">Agah Group</p>
-            <h3>Customer Service &amp; Call Center Operations</h3>
-            <ul>
-              <li>Progressed through written, email, and telephone support before joining the newly established Call Center Operations team.</li>
-              <li>Contributed research, documentation, training content, knowledge assessments, and structured recruitment questions.</li>
-            </ul>
-          </div>
-        </article>
+        <p class="kept"><span>What I kept</span>Every message a customer gets from us passes through something I own.</p>
       </div>
-    </section>
+    </article>
+  </div>
+</section>
 
-    <section class="section capabilities" id="capabilities" aria-labelledby="capabilities-title">
-      <div class="section-heading">
-        <p>02 / Capabilities</p>
-        <h2 id="capabilities-title">A product practice grounded in discovery, delivery, and alignment.</h2>
-      </div>
-      <div class="capability-grid">
-        <article><span>01</span><h3>Product &amp; Strategy</h3><p>Product Discovery · User &amp; Stakeholder Interviews · Problem Validation &amp; Definition · PRDs · Roadmapping · Prioritization · MVP Scoping · Data-informed Decisions</p></article>
-        <article><span>02</span><h3>Platforms &amp; Delivery</h3><p>Internal Platforms · Workflow Automation · Customer Journeys · Service Migration · API &amp; Integration Fundamentals · Vendor Management · SAFe · Agile Delivery</p></article>
-        <article><span>03</span><h3>Data &amp; Reporting</h3><p>SQL · Data Analysis · Looker Studio · Navicat · MySQL Workbench · SQL Server Management Studio</p></article>
-        <article><span>04</span><h3>Tools &amp; Automation</h3><p>Jira · Confluence · Postman · n8n · WebEngage · Microsoft Office · NotebookLM · Codex</p></article>
-      </div>
-    </section>
+<section aria-labelledby="after-title">
+  <div class="after-head">
+    <div>
+      <p class="eyebrow">Where I am now · 2026</p>
+      <h2 id="after-title">So I started building things myself.</h2>
+      <p>At work I decide what gets built and engineers build it. I wanted to understand the last layer too. With AI coding agents I write the specs, set the rules and review every decision, and real products ship. These three are live, and each one taught me something new.</p>
+    </div>
+  </div>
+  <div class="builds reveal">
+    <article class="build">
+      <p class="kind">Personal finance app</p>
+      <h3>Libra <span class="fa">لیبرا</span></h3>
+      <p>A Persian, right-to-left cash-flow app on the Jalali calendar. It reads bank SMS into a waiting inbox, tracks budgets, debts and goals, and works as an installable app with notifications.</p>
+      <p class="mine">I wrote the PRD and the specs and set the rules, such as "the admin can never see anyone's amounts". AI agents wrote the code under that plan, with 500+ automated tests.</p>
+      <a href="https://libranote.ir" target="_blank" rel="noopener">libranote.ir ↗</a>
+    </article>
+    <article class="build">
+      <p class="kind">Cookbook</p>
+      <h3>YumSum</h3>
+      <p>Turns my Pinterest food board into a cookbook. Recipes rescale for any number of people in Iranian kitchen units (پیمانه، قاشق), show calories per person, and a pantry page ranks what I can cook with what I have.</p>
+      <p class="mine">Runs entirely on GitHub with no server. An AI writes recipes from pin photos every hour.</p>
+      <a href="https://github.com/pirayeah/yumsum" target="_blank" rel="noopener">Source ↗</a>
+    </article>
+    <article class="build">
+      <p class="kind">Open handbook</p>
+      <h3>Enterprise AI handbook</h3>
+      <p>A practical guide to bringing AI into an organisation: three risk tiers, a 90-day quick start, ten chapters and fifteen editable tools, with a worked example from a brokerage.</p>
+      <p class="mine">Every claim traces back to a 197-source register, and a script checks every citation. There's a 127-page Persian edition. CC BY 4.0.</p>
+      <a href="https://github.com/pirayeah/ai-implementation-handbook" target="_blank" rel="noopener">Read it ↗</a>
+    </article>
+  </div>
+</section>
 
-    <section class="section education" aria-labelledby="education-title">
-      <div class="section-heading"><p>03 / Education</p><h2 id="education-title">Business perspective, technology foundation.</h2></div>
-      <div class="education-list">
-        <article><time>2019</time><div><h3>MBA, International Business Management</h3><p>Institute for Management and Planning Studies</p></div></article>
-        <article><time>2015</time><div><h3>BSc, Information Technology Engineering</h3><p>Payame Noor University</p></div></article>
-      </div>
-    </section>
+<section class="how" aria-labelledby="how-title">
+  <p class="eyebrow">How I work</p>
+  <h2 id="how-title">Four habits that came with me from every stop.</h2>
+  <div class="rules">
+    <div class="rule"><h3>Start close to the problem.</h3><p>I talk to the people who live with it, the users and the support team, before I write anything.</p></div>
+    <div class="rule"><h3>Find the system behind it.</h3><p>Most problems are a process, an incentive or a missing rule. I look for that before proposing a feature.</p></div>
+    <div class="rule"><h3>Decide with evidence, then move.</h3><p>I weigh value, complexity and effort out loud, pick the simpler option, and keep a way back.</p></div>
+    <div class="rule"><h3>Own it with people.</h3><p>I move work through clarity and trust: written decisions, honest timelines, and credit where it belongs.</p></div>
+  </div>
+</section>
 
-    <section class="contact" id="contact" aria-labelledby="contact-title">
-      <p>Let’s connect</p>
-      <h2 id="contact-title">Interested in exchanging ideas or exploring how we might work together?</h2>
-      <div class="contact-actions">
-        <a class="button button-light" href="mailto:piray.777@gmail.com?subject=Let%27s%20connect&amp;body=Hi%20Piraye%2C%0D%0A%0D%0AI%20came%20across%20your%20profile%20and%20would%20like%20to%20connect%20and%20explore%20potential%20ways%20we%20might%20collaborate.%0D%0A%0D%0ABest%2C%0D%0A%5BYour%20name%5D">Start a conversation <span aria-hidden="true">↗</span></a>
-        <a class="button button-outline" href="piraye-pirhadi-resume.pdf" download data-track-event="resume_download">Download résumé <span aria-hidden="true">↓</span></a>
+<section aria-label="Toolkit and education">
+  <div class="base reveal">
+    <div>
+      <h2>Toolkit</h2>
+      <dl class="tools">
+        <div><dt>Product</dt><dd>Discovery, interviews, problem validation, PRDs, roadmaps, prioritisation, MVP scoping</dd></div>
+        <div><dt>Delivery</dt><dd>Internal platforms, workflow automation, customer journeys, service migration, vendor management, SAFe, Agile</dd></div>
+        <div><dt>Data</dt><dd>SQL, Looker Studio, Navicat, MySQL Workbench, SQL Server Management Studio</dd></div>
+        <div><dt>Tools</dt><dd>Jira, Confluence, Postman, n8n, WebEngage, NotebookLM, Codex, Claude Code</dd></div>
+      </dl>
+    </div>
+    <div>
+      <h2>Education</h2>
+      <div class="edu">
+        <div><p class="y">2019</p><b>MBA, International Business Management</b><span>Institute for Management and Planning Studies</span></div>
+        <div><p class="y">2015</p><b>BSc, Information Technology Engineering</b><span>Payame Noor University</span></div>
       </div>
-      <a class="email" href="mailto:piray.777@gmail.com">piray.777@gmail.com</a>
-    </section>
-  </main>
+    </div>
+  </div>
+</section>
 
-  <footer><span>© <span id="year">2026</span> Piraye Pirhadi</span><a href="#top">Back to top ↑</a></footer>
-  <script src="tracking-config.js"></script>
-  <script src="script.js"></script>
+<section class="close" aria-labelledby="close-title">
+  <div>
+    <h2 id="close-title">If your product sits between people and systems, let's talk.</h2>
+    <p>I'm open to product conversations about platforms, automation, fintech and AI.</p>
+    <div class="mail">
+      <code id="email">piray.777@gmail.com</code>
+      <button class="btn" id="copy" type="button" data-track-event="email_copy">Copy email</button>
+    </div>
+  </div>
+  <div class="links">
+    <a class="btn" href="https://linkedin.com/in/piraye-pirhadi" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <a class="btn" href="piraye-pirhadi-resume.pdf" data-track-event="resume_download">One-page PDF ↗</a>
+  </div>
+</section>
+
+<footer><span>© <span id="year">2026</span> Piraye Pirhadi</span><span class="fa">پیرایه پیرهادی · تهران</span></footer>
+</div>
+
+<script>
+document.getElementById('copy').addEventListener('click', function () {
+  var b = this, t = document.getElementById('email').textContent;
+  function done(msg){ b.textContent = msg; setTimeout(function(){ b.textContent = 'Copy email'; }, 1800); }
+  try {
+    navigator.clipboard.writeText(t).then(function(){ done('Copied'); }, select);
+  } catch (e) { select(); }
+  function select(){
+    var r = document.createRange(); r.selectNodeContents(document.getElementById('email'));
+    var s = getSelection(); s.removeAllRanges(); s.addRange(r); done('Selected, press Ctrl+C');
+  }
+});
+</script>
+<script src="tracking-config.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
